@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Tour Guides</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .profile-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .profile-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+        .profile-details {
+            flex: 1;
+        }
+        .profile-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .profile-location {
+            font-size: 0.9rem;
+            color: #777;
+        }
+        .profile-description {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Freelance Tour Guides</h1>
+        <p>Explore our talented guides for your next adventure!</p>
+    </div>
+    <div class="profile-card">
+        <img src="profile1.jpg" alt="Guide 1" class="profile-image">
+        <div class="profile-details">
+            <div class="profile-name">Emily Johnson</div>
+            <div class="profile-location">Based in Kyoto, Japan</div>
+            <div class="profile-description">
+                Emily is passionate about Japanese culture, history, and cuisine. She'll take you on an unforgettable journey through Kyoto's hidden gems.
+            </div>
+        </div>
+    </div>
+    <div class="profile-card">
+        <img src="profile2.jpg" alt="Guide 2" class="profile-image">
+        <div class="profile-details">
+            <div class="profile-name">Carlos Rodriguez</div>
+            <div class="profile-location">Exploring the Andes Mountains</div>
+            <div class="profile-description">
+                Carlos is an experienced mountaineer and nature enthusiast. Join him for breathtaking treks in the Andes.
+            </div>
+        </div>
+    </div>
+    <!-- Add more profiles here -->
+</body>
+</html>
 
